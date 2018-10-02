@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JsonSchemaPod_Example' do
+  pod 'JsonSchemaPod', :path => '../'
+
+  target 'JsonSchemaPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
