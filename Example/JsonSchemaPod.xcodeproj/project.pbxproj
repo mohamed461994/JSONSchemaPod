@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		84340AB121639D0C0064A7B7 /* JsonSchemaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84340AB021639D0C0064A7B7 /* JsonSchemaPod.framework */; };
 		F2843D08A21D8005AE70854D /* Pods_JsonSchemaPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7576B6F0B0E446114C7E8171 /* Pods_JsonSchemaPod_Tests.framework */; };
 		FD01AF621B0298B75DF2B747 /* Pods_JsonSchemaPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7ED788DE2E7158B863B38FB /* Pods_JsonSchemaPod_Example.framework */; };
 /* End PBXBuildFile section */
@@ -28,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05032AA5662A9BA38236CDA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		05032AA5662A9BA38236CDA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1CDD058630A1E2DD45C7998A /* Pods-JsonSchemaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonSchemaPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonSchemaPod_Example/Pods-JsonSchemaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		36A63D274AAA2E1914414668 /* Pods-JsonSchemaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonSchemaPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonSchemaPod_Tests/Pods-JsonSchemaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		558C1A1A69303A8F91F93515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		558C1A1A69303A8F91F93515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JsonSchemaPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonSchemaPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7576B6F0B0E446114C7E8171 /* Pods_JsonSchemaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonSchemaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B36BA182254BB4C0D18BC15 /* JsonSchemaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JsonSchemaPod.podspec; path = ../JsonSchemaPod.podspec; sourceTree = "<group>"; };
+		7B36BA182254BB4C0D18BC15 /* JsonSchemaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JsonSchemaPod.podspec; path = ../JsonSchemaPod.podspec; sourceTree = "<group>"; };
+		84340AB021639D0C0064A7B7 /* JsonSchemaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JsonSchemaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7ED788DE2E7158B863B38FB /* Pods_JsonSchemaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonSchemaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C837DD2385CB1F7F6E04103A /* Pods-JsonSchemaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonSchemaPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonSchemaPod_Example/Pods-JsonSchemaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF149783F9F8F0A5A885E304 /* Pods-JsonSchemaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonSchemaPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonSchemaPod_Tests/Pods-JsonSchemaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84340AB121639D0C0064A7B7 /* JsonSchemaPod.framework in Frameworks */,
 				FD01AF621B0298B75DF2B747 /* Pods_JsonSchemaPod_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +156,7 @@
 		E5C0EE990E44940CF3DBC862 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84340AB021639D0C0064A7B7 /* JsonSchemaPod.framework */,
 				B7ED788DE2E7158B863B38FB /* Pods_JsonSchemaPod_Example.framework */,
 				7576B6F0B0E446114C7E8171 /* Pods_JsonSchemaPod_Tests.framework */,
 			);
@@ -266,15 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-JsonSchemaPod_Example-checkManifestLockResult.txt",
 			);
@@ -288,15 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JsonSchemaPod_Example/Pods-JsonSchemaPod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JsonSchemaPod/JsonSchemaPod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JsonSchemaPod.framework",
 			);
@@ -310,15 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-JsonSchemaPod_Tests-checkManifestLockResult.txt",
 			);

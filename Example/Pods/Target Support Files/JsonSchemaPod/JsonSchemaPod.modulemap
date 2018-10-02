@@ -1,0 +1,6 @@
+framework module JsonSchemaPod {
+  umbrella header "JsonSchemaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

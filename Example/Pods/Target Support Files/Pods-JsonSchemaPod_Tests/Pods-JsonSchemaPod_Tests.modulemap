@@ -1,0 +1,6 @@
+framework module Pods_JsonSchemaPod_Tests {
+  umbrella header "Pods-JsonSchemaPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
