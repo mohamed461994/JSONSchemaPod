@@ -1,5 +1,5 @@
 PODS:
-  - JsonSchemaPod (0.1.0)
+  - JsonSchemaPod (0.2.0)
 
 DEPENDENCIES:
   - JsonSchemaPod (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JsonSchemaPod: 25f15ce0b23f8c75bd275c4925c854fb6ac3ce5b
+  JsonSchemaPod: 9b5569388054b026da3199d63a5c23962a407706
 
-PODFILE CHECKSUM: 9cf1ade97b67d6515c7761be29ee3fe155241900
+PODFILE CHECKSUM: ad0abbc5e11877e8eb4c8ea928cc50fea51d53eb
 
 COCOAPODS: 1.5.3
