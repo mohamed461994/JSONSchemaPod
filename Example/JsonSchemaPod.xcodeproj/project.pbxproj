@@ -216,6 +216,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JM6375DKHS;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -473,6 +474,7 @@
 			baseConfigurationReference = C837DD2385CB1F7F6E04103A /* Pods-JsonSchemaPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM6375DKHS;
 				INFOPLIST_FILE = JsonSchemaPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -488,6 +490,7 @@
 			baseConfigurationReference = 1CDD058630A1E2DD45C7998A /* Pods-JsonSchemaPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM6375DKHS;
 				INFOPLIST_FILE = JsonSchemaPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

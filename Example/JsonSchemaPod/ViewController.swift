@@ -7,13 +7,15 @@
 //
 
 import UIKit
-
+import JsonSchemaPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let x = TestC()
+        x.x()
     }
 
     override func didReceiveMemoryWarning() {
